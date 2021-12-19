@@ -1,1 +1,1 @@
-CryptoMines Classic Template Spreadsheet
+CryptoMines Classic Sheet by Jucci#0007

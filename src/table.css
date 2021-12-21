@@ -38,6 +38,7 @@ td  {
   text-align: right;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
+  color: #FFF !important;
 }
 
 .credits1{
@@ -45,12 +46,15 @@ td  {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 12px;
+  color: #FFF !important;
+  
 }
 
 .disclaimer{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 12px;
+  color: #FFF !important;
 }
 
 .disclaimer1{
@@ -58,6 +62,7 @@ td  {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 12px;
+  color: #FFF !important;
 }
 
 .purp{
@@ -94,6 +99,7 @@ td  {
   text-align: right;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
+  color: #FFF !important;
 }
 
 .text-left-M{
@@ -106,14 +112,14 @@ td  {
   text-align: left;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  color: #512979;
+  color: #8945ce;
 }
 
 .text-right-special{
   text-align: left;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  color: #512979;
+  color: #8945ce;
   font-size: 14px;
 }
 
@@ -172,7 +178,7 @@ td  {
   text-align: left;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  color: #512979;
+  color: #8945ce;
 }
 
 .width90{
@@ -340,23 +346,14 @@ input[type=number] {
   font-size: 14px;
   text-align: left;
   font-family: 'Nunito', sans-serif;
-  background-color: #e9ecef !important;
   border-color: transparent;
   border-radius: 0 !important;
-  border-left-color: #ced4da !important;
-  border-right-color: #ced4da !important;
+  background-color: #212529 !important;
+  color: #FFF !important;
 }
 
 .select-days:hover{
-  background-color: rgba(153, 151, 151, 0.138) !important;
-}
-
-.select-currency:hover{
-  background-color: rgba(153, 151, 151, 0.138) !important;
-}
-
-.select-lang:hover{
-  background-color: rgba(153, 151, 151, 0.138) !important;
+  background-color: rgb(58, 58, 58) !important;
 }
 
 .text-left-x{
@@ -373,3 +370,11 @@ input[type=number] {
   text-align: left !important;
 }
 
+.border{
+  color: #FFF !important;
+}
+
+.input-group-text{
+  background-color: #212529 !important;
+  color: #FFF !important;
+}

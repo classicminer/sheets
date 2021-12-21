@@ -170,14 +170,28 @@ class GetNGT extends Component{
                     </div>
 
                     <div class="d-none d-lg-block px-0 mx-0">
-                    <div class="col-12 mt-3 row">
-                        <div class="col-2 mt-2">
-                        <p class="text-left">Enter # of Miners:</p>
+
+                    <div class="col-12 mt-4 row">
+                        <div class="col-2">
+                            <p class="text-right1">All info can be found in: <a href="https://docs.cryptominesclassic.app/cryptomines-classic/gameplay/introduction" rel="noreferrer" target="_blank">WhitePaper</a></p>
+                        </div>
+                        <div class="col-10"><p class="text-right1"><b>Note: You can't mine on mines higher than your convoy's MP. The success rate for each mine is a fixed value and will not vary depending on your convoy's Mining Power.</b></p></div>
+                    </div>
+
+
+                    <div class="col-12 mt-2 d-flex flex-row">
+                        <div class="col-1 mt-2 ">
+                        <p class="text-right">Enter # of Miners:</p>
                         </div>
                         <div class="col-1">
                             <input type="number" class="input-group-text" onChange={this.setWorkers}></input>
                         </div>
+                        <div class="col-6 mt-2">
+                            <p class="text-right1">This affects Net Profit due to more/less contracts needed</p>
+                        </div>
                     </div>
+
+
                     </div>
 
 
@@ -196,17 +210,17 @@ class GetNGT extends Component{
                         <div id="fleet" class={this.state.visibilityFleet + "mt-2 overflow"}>
 
                             <table>
-                                <tr class={this.state.visEn+" border border-dark"}>
-                                    <th class="border border-2 border-dark">#</th>
-                                    <th class="border extra-padding border-2 border-dark">Mines</th>
-                                    <th class="border border-2 border-dark">MP</th>
-                                    <th class="border border-2 border-dark">Mine Reward (NGT)</th>
-                                    <th class="border border-2 border-dark">Mine Reward (USD)</th>
-                                    <th class="border border-2 border-dark">Success Rate</th>
-                                    <th class="border border-2 border-dark">{this.state.selectDays}d Normalized Reward</th>
-                                    <th class="border border-2 border-dark">{this.state.selectDays}d Contract Cost (NGT)</th>
-                                    <th class="border border-2 border-dark">{this.state.selectDays}d Contract Cost (USD)</th>
-                                    <th class="border border-2 border-dark">Net Profit / {this.state.selectDays}d</th>
+                                <tr class={this.state.visEn+" border border-secondary"}>
+                                    <th class="border border-2 border-secondary">#</th>
+                                    <th class="border extra-padding border-2 border-secondary">Mines</th>
+                                    <th class="border border-2 border-secondary">MP</th>
+                                    <th class="border border-2 border-secondary">Mine Reward (NGT)</th>
+                                    <th class="border border-2 border-secondary">Mine Reward (USD)</th>
+                                    <th class="border border-2 border-secondary">Success Rate</th>
+                                    <th class="border border-2 border-secondary">{this.state.selectDays}d Normalized Reward</th>
+                                    <th class="border border-2 border-secondary">{this.state.selectDays}d Contract Cost (NGT)</th>
+                                    <th class="border border-2 border-secondary">{this.state.selectDays}d Contract Cost (USD)</th>
+                                    <th class="border border-2 border-secondary">Net Profit / {this.state.selectDays}d</th>
                                 </tr>
                                 {/* Fleet */}
                                 {(() => {
